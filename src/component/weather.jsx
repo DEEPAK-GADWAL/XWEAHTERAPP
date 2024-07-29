@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App";
+import "../App.css"; // Ensure this path is correct
 
 const Weather = () => {
   const [city, setCity] = useState("");
@@ -27,9 +27,10 @@ const Weather = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (city) {
+    if (city.trim()) {
       fetchWeather(city);
-      // setCity("");
+    } else {
+      alert("Please enter a city name.");
     }
   };
 
