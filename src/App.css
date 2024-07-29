@@ -1,0 +1,83 @@
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+  min-width: 750px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.loading {
+  font-size: 18px;
+  color: blue;
+}
+
+.weather-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* Wrap items on small screens */
+}
+
+.weather-card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 200px; /* Fixed width for cards */
+  text-align: center; /* Center align text */
+}
+.weather-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.weather-box p{
+  /* border: 1px solid black; */
+  padding: 15px;
+  min-height: 50px;
+  min-width: 100px;
+  box-shadow: 1px 0px 7px 1px grey;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.weather-card h2 {
+  margin: 0 0 10px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.app{
+  min-width: 300px;
+}
