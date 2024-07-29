@@ -29,7 +29,7 @@ const Weather = () => {
     e.preventDefault();
     if (city) {
       fetchWeather(city);
-      setCity("");
+      // setCity("");
     }
   };
 
